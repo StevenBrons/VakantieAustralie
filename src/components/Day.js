@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Header from '../components/Header'
-import './Day.css'
+import Header from '../components/Header';
+import TrackVisibility from 'react-on-screen';
+import './Day.css';
 
 class Day extends Component {
   render() {
@@ -20,15 +21,21 @@ class Day extends Component {
     }
 
     return (
-      <div className="Day">
-        <Header title={this.props.title} image={this.props.image} subtitle={this.props.subtitle} parallax />
-        <div className="background" style={{ backgroundImage: "url(" + this.props.image + ".jpg)" }} />
-        <div className="background" />
-        <div style={style}>
-          {this.props.children}
-          <div style={{ clear: "both" }} />
-        </div>
-      </div>
+      <TrackVisibility partialVisibility offset={300} >
+        {({ isVisible }) => isVisible ?
+          <div className="Day">
+            <Header title={this.props.title} image={this.props.image} subtitle={this.props.subtitle} parallax />
+            <div className="background" style={{ backgroundImage: "url(" + this.props.image + ".jpg)" }} />
+            <div className="background" />
+            <div style={style}>
+              {this.props.children}
+              <div style={{ clear: "both" }} />
+            </div>
+          </div> :
+          <div style={{ height: (this.props.gridRows * 45) + "vh" }}>
+          </div>
+        }
+      </TrackVisibility>
     );
   }
 }
