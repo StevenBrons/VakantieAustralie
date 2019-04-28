@@ -1,0 +1,70 @@
+.Image {
+  overflow: hidden;
+  display: inline-block;
+  flex:1;
+  width: 100%;
+  height: 100%;
+}
+
+.Image img {
+  margin-bottom: -5px;
+  transition-duration: 0.3s;
+  width: 100%;
+  height: auto;
+}
+
+.Image div {
+  overflow: hidden;
+  width:  100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Image img:hover {
+  /* transform: scale(1.02); */
+}
+
+.animation3 {
+  animation-name: test3;
+  animation-duration: 3s;
+}
+
+@keyframes test3 {
+  from {
+    transform: translate(-1000px,1000px);
+  }
+  to {
+  }
+}
+
+.animation2 {
+  animation-name: test2;
+  animation-duration: 2s;
+}
+
+@keyframes test2 {
+  0% {
+    transform: translate(-1000px,1000px) rotate(0deg);
+  }
+  0% {
+    transform: translate(-500px,500px) rotate(360deg);
+  }
+  100% {
+    transform: translate(0px,0px) rotate(0deg);
+  }
+}
+
+.animation1 {
+  animation-name: test1;
+  animation-duration: 2s;
+}
+
+@keyframes test1 {
+  from {
+    transform: scale(0.01);
+  }
+  to {
+  }
+}

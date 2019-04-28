@@ -1,0 +1,14 @@
+.TextBox {
+  overflow: hidden;
+  margin:10px;
+  display: inline-block;
+  margin-bottom: -10px;
+  flex:1;
+}
+
+.TextBox img {
+  /* border:5px solid black; */
+  /* margin:10px; */
+  /* padding:10px; */
+  transition-duration: 0.3s;
+}

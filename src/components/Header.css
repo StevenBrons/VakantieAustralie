@@ -1,0 +1,26 @@
+.Header div{
+  text-align: center;
+  width: 100%;
+  border: 0px;
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+.Header div div {
+  vertical-align: middle;
+  display: table-cell;
+  text-shadow: 0 1px 5px black;
+}
+
+.Header div div h1 {
+  margin-top: -60px;
+}
+
+.Header div div h3 {
+  font-style: italic;
+  margin-top: -30px;
+}
+
