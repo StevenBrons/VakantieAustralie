@@ -1,4 +1,8 @@
 
+ultra_high_res/
+high_res/
+
+
 # Created by https://www.gitignore.io/api/node,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,visualstudiocode
 
@@ -66,8 +70,6 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
-ultra_high_res/
-
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
