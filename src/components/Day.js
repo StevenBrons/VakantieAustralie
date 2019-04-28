@@ -21,7 +21,7 @@ class Day extends Component {
     }
 
     return (
-      <TrackVisibility partialVisibility offset={300} >
+      <TrackVisibility partialVisibility offset={1000} >
         {({ isVisible }) => isVisible ?
           <div className="Day">
             <Header title={this.props.title} image={this.props.image} subtitle={this.props.subtitle} parallax />
