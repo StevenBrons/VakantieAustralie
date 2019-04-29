@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import GridPos from '../components/GridPos';
 import './Header.css';
 
-const RESOLUTION = "medium_res";
+const RESOLUTION = "high_res";
 
 class Header extends Component {
   render() {
