@@ -8,8 +8,8 @@ class Day0 extends Component {
   render() {
     return (
       <Day title={"Dag 0"} image={"day0/airplane"} subtitle={"Frankfurt"} gridCols={3} gridRows={1}>
-        <Video video="day0/timelapseToAirport" pos={[1,1,1,1]}/>
-        <TextArea pos={[2,1,1,1]}>
+        <Video video="timelapseToAirport" pos={[1, 1, 1, 1]} />
+        <TextArea pos={[2, 1, 1, 1]}>
           <h3>
             Naar het vliegveld
           </h3>
@@ -21,7 +21,7 @@ class Day0 extends Component {
             De <b>vlucht naar Hong Kong</b> duurde elf uur, met een tijdverschil van zes uur. Na een film te hebben gekeken en het langverwachte vliegtuigvoedsel te hebben gegeten ging ik slapen, of tja, mijn ogen dichtdoen.
           </p>
         </TextArea>
-        <Image image={"day0/airplaneFood"} pos={[3,1,1,1]}  />
+        <Image image={"day0/airplaneFood"} pos={[3, 1, 1, 1]} />
       </Day >
     );
   }

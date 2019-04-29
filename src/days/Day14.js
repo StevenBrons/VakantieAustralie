@@ -37,7 +37,7 @@ class Day14 extends Component {
         <Image image="day14/lagoon1" pos={[2, 4, 1, 1]} />
         <Image image="day14/lagoon3" pos={[3, 4, 1, 1]} />
         <Image image="day14/lagoon2" pos={[1, 5, 1, 1]} />
-        <Video pos={[2, 5, 1, 1]} video="day14/airley_beach_sunset" />
+        <Video pos={[2, 5, 1, 1]} video="airley_beach_sunset" />
         <Image image="day14/lagoon4" pos={[3, 5, 1, 1]} />
       </Day >
     );

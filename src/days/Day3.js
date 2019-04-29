@@ -24,7 +24,7 @@ class Day1 extends Component {
         <Image image="day3/gardens12" bg pos={[9, 1, 4, 2]} />
 
         <Image image="day3/gardens1" pos={[1, 3, 4, 1]} />
-        <Video video="day3/gardens" verticalScaling pos={[5, 3, 4, 1]} />
+        <Video video="gardens" verticalScaling pos={[5, 3, 4, 1]} />
         <Image image="day3/gardens9" pos={[9, 3, 4, 1]} />
 
         <Image image="day3/gardens3" pos={[1, 4, 4, 1]} />

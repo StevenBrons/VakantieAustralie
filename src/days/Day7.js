@@ -11,7 +11,7 @@ class Day7 extends Component {
   render() {
     return (
       <Day title={"Dag 7"} image={"day7/koala1"} subtitle={"Noosaville"} gridCols={6} gridRows={12}>
-        <TextArea pos={[1,1,6,1]}>
+        <TextArea pos={[1, 1, 6, 1]}>
           <h3>
             Slapende koala's
           </h3>
@@ -24,9 +24,9 @@ class Day7 extends Component {
             Tja, dan maar foto's van slapende koala's hè.
           </p>
         </TextArea>
-        <KoalaMemory pos={[1,2,6,2]}/>
-        <Image image="day7/emu2" pos={[1,4,2,1]} />
-        <TextArea pos={[3,4,2,1]}>
+        <KoalaMemory pos={[1, 2, 6, 2]} />
+        <Image image="day7/emu2" pos={[1, 4, 2, 1]} />
+        <TextArea pos={[3, 4, 2, 1]}>
           <h3>
             Andere dieren
           </h3>
@@ -37,18 +37,18 @@ class Day7 extends Component {
             Er waren ook een helebool <b>Regenbooglori Papegaaien</b> die je kon voeren.
           </p>
         </TextArea>
-        <Stack pos={[5,4,2,1]}>
-          <Image image="day7/lizard" bg/>
-          <Image image="day7/snake" bg/>
-          <Image image="day7/dingo" bg/>
-          <Image image="day7/emu1" bg/>
+        <Stack pos={[5, 4, 2, 1]}>
+          <Image image="day7/lizard" bg />
+          <Image image="day7/snake" bg />
+          <Image image="day7/dingo" bg />
+          <Image image="day7/emu1" bg />
         </Stack>
-        
-        <Image image="day7/bird2" pos={[1,5,2,1]} />
-        <Image image="day7/bird3" pos={[3,5,2,1]} />
-        <Image image="day7/bird4" pos={[5,5,2,1]} />
-        
-        <TextArea pos={[1,6,2,1]}>
+
+        <Image image="day7/bird2" pos={[1, 5, 2, 1]} />
+        <Image image="day7/bird3" pos={[3, 5, 2, 1]} />
+        <Image image="day7/bird4" pos={[5, 5, 2, 1]} />
+
+        <TextArea pos={[1, 6, 2, 1]}>
           <h3>
             Kangoeroe's
           </h3>
@@ -59,19 +59,19 @@ class Day7 extends Component {
             Uiteindelijk hebben we ook nog wat <b>actiefoto's</b> van koala's kunnen maken.
           </p>
         </TextArea>
-        <Image image="day7/kangaroo1" pos={[3,6,2,1]} />
-        <Image image="day7/kangaroo2" pos={[5,6,2,1]} />
+        <Image image="day7/kangaroo1" pos={[3, 6, 2, 1]} />
+        <Image image="day7/kangaroo2" pos={[5, 6, 2, 1]} />
 
-        <Image image="day7/actionKoala7" pos={[1,7,2,1]} onViewportAnimation="animation3" />
-        <Image image="day7/actionKoala5" pos={[3,7,2,1]} onViewportAnimation="animation2" />
-        <Video video="day7/flyingKoala" pos={[5,7,2,1]} />
+        <Image image="day7/actionKoala7" pos={[1, 7, 2, 1]} onViewportAnimation="animation3" />
+        <Image image="day7/actionKoala5" pos={[3, 7, 2, 1]} onViewportAnimation="animation2" />
+        <Video video="flyingKoala" pos={[5, 7, 2, 1]} />
 
-        <Image image="day7/actionKoala8" bg pos={[1,8,3,1]} onViewportAnimation="animation1" />
-        <Image image="day7/babyKoala" bg pos={[4,8,3,1]} />
+        <Image image="day7/actionKoala8" bg pos={[1, 8, 3, 1]} onViewportAnimation="animation1" />
+        <Image image="day7/babyKoala" bg pos={[4, 8, 3, 1]} />
 
-        <Image image="day7/lookout6"  pos={[1,9,6,1]} />
+        <Image image="day7/lookout6" pos={[1, 9, 6, 1]} />
 
-        <TextArea pos={[1,10,12,1]}>
+        <TextArea pos={[1, 10, 12, 1]}>
           <h3>
             Uitzichtpunt
           </h3>
@@ -82,11 +82,11 @@ class Day7 extends Component {
           </p>
         </TextArea>
 
-        <Image image="day7/lookout2" bg pos={[1,11,2,1]} />
-        <Image image="day7/lookout4" bg pos={[3,11,2,1]} />
-        <Image image="day7/lookout3" bg pos={[5,11,2,1]} />
-        <Image image="day7/coralBeachResort1" bg pos={[1,12,3,1]} />
-        <Image image="day7/coralBeachResort2" bg pos={[4,12,3,1]} />
+        <Image image="day7/lookout2" bg pos={[1, 11, 2, 1]} />
+        <Image image="day7/lookout4" bg pos={[3, 11, 2, 1]} />
+        <Image image="day7/lookout3" bg pos={[5, 11, 2, 1]} />
+        <Image image="day7/coralBeachResort1" bg pos={[1, 12, 3, 1]} />
+        <Image image="day7/coralBeachResort2" bg pos={[4, 12, 3, 1]} />
       </Day >
     );
   }
