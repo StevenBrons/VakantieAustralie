@@ -19,6 +19,8 @@ import Day15 from './days/Day15'
 import Day16 from './days/Day16'
 import Day17 from './days/Day17'
 import Day18 from './days/Day18'
+import Day19 from './days/Day19'
+import Day20 from './days/Day20'
 import Header from './components/Header'
 
 
@@ -45,7 +47,9 @@ class App extends Component {
         <Day15 />
         <Day16 />
         <Day17 />
-        {/* <Day18 /> */}
+        <Day18 />
+        <Day19 />
+        <Day20 />
         <div style={{ height: "500px" }}>
         </div>
       </div>
