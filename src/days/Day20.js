@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Day from '../components/Day'
 import Image from '../components/Image'
 import TextArea from '../components/TextArea'
-import Header from '../components/Header'
-import Video from '../components/Video'
 
 class Day20 extends Component {
   render() {
@@ -61,7 +59,7 @@ class Day20 extends Component {
   createHumbs(text) {
     let i = true;
     return text.split("").map((c, index) => {
-      if (c == " ") {
+      if (c === " ") {
         i = !i;
       }
       let d = Math.sin(index) * 2;

@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Day from '../components/Day'
 import Image from '../components/Image'
 import TextArea from '../components/TextArea'
-import Header from '../components/Header'
-import Video from '../components/Video'
 
 class Day19 extends Component {
   render() {
