@@ -23,11 +23,14 @@ import Day19 from './days/Day19'
 import Day20 from './days/Day20'
 import Day21 from './days/Day21'
 import Day22 from './days/Day22'
+import Day23 from './days/Day23'
+import Day2425 from './days/Day2425'
 import Header from './components/Header'
 
 
 class App extends Component {
   render() {
+    let y = new Date().getFullYear();
     return (
       <div className="App">
         <Header title="Australië" image="HeaderTotal" height="100vh" subtitle="Door Steven Bronsveld" />
@@ -54,7 +57,12 @@ class App extends Component {
         <Day20 />
         <Day21 />
         <Day22 />
-        <div style={{ height: "500px" }}>
+        <Day23 />
+        <Day2425 />
+        <div style={{ color: "white", fontSize: "16px", textAlign: "center" }}>
+          Copyright © Steven Bronsveld {y}, alle rechten voorbehouden.
+          Gebruik van foto's en videos alleen met toestemming van de auteur.
+          Dit project is <a href="https://www.github.com/StevenBrons/VakantieAustralie">open source</a> en de source code is vrij te gebruiken onder de MIT licentie.
         </div>
       </div>
     );
