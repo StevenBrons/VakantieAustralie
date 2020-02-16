@@ -7,7 +7,7 @@ import TextArea from '../components/TextArea';
 class Day0 extends Component {
   render() {
     return (
-      <Day title={"Dag 0"} image={"day0/airplane"} subtitle={"Frankfurt"} gridCols={3} gridRows={1}>
+      <Day title="Dag 0" image="day0/airplane" subtitle="Frankfurt" gridCols={3} gridRows={1}>
         <Video video="timelapseToAirport" pos={[1, 1, 1, 1]} />
         <TextArea pos={[2, 1, 1, 1]}>
           <h3>

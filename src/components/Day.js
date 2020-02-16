@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
-import TrackVisibility from 'react-on-screen';
 import './Day.css';
 
 class Day extends Component {
+
   render() {
     let rows = [];
     for (let r = 0; r < this.props.gridRows; r++) {
@@ -21,21 +21,15 @@ class Day extends Component {
     }
 
     return (
-      <TrackVisibility partialVisibility offset={1000} >
-        {({ isVisible }) => isVisible ?
-          <div className="Day">
-            <Header title={this.props.title} image={this.props.image} subtitle={this.props.subtitle} parallax />
-            <div className="background" style={{ backgroundImage: "url(" + this.props.image + ".jpg)" }} />
-            <div className="background" />
-            <div style={style}>
-              {this.props.children}
-              <div style={{ clear: "both" }} />
-            </div>
-          </div> :
-          <div style={{ height: (this.props.gridRows * 45) + "vh" }}>
-          </div>
-        }
-      </TrackVisibility>
+      <div className="Day" id={this.props.title}>
+        <Header title={this.props.title} image={this.props.image} subtitle={this.props.subtitle} parallax />
+        <div className="background" style={{ backgroundImage: "url(" + this.props.image + ".jpg)" }} />
+        <div className="background" />
+        <div style={style}>
+          {this.props.children}
+          <div style={{ clear: "both" }} />
+        </div>
+      </div>
     );
   }
 }
